@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	Nhap so thu 1: <input id="a" type="number" name=""><br><br>
+	Nhap so thu 2: <input id="b" type="number" name="">
+	<h2 onclick="ketqua()">ket qua: <span id="kq"></span></h2>
+	<script type="text/javascript">
+
+		function ketqua() {
+			var x = parseInt(document.getElementById('a').value);
+			var y = parseInt(document.getElementById('b').value);
+			var tong = x+y;
+			document.getElementById('kq').innerHTML = tong;
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="baitapmoi.css">
+</head>
+<body>
+	<form method="post" onsubmit="validate()">
+		<h1>Đăng Ký</h1>
+		<p>Mời Bạn Đăng Ký</p><br>
+		<p>Tài Khoản</p><br>
+		<input type="name" id="tk" placeholder="nhập username"name=""><br>
+		<p>Mật khẩu</p><br>
+		<input type="password" id="mk" placeholder="Mật khẩu" name="">
+		<p>Nhập Lại Mật Khẩu</p><br>
+		<input type="text" id="lmk" placeholder="Nhập lại Mật Khẩu" name=""><br>
+		<input type="submit" value="Đăng ký" name="">
+	</form>
+<script type="text/javascript">
+	function validate(){
+	var a = document.getElementById('tk').value;
+	var b = document.getElementById('mk').value;
+	var c = document.getElementById('lmk').value;
+	if (a==null || a==""){
+		alert("moi ban nhap dau du thong tin");
+		return false;
+	}
+	else if(b==null || b==""){
+		alert("moi ban nhap dau du thong tin");
+		return false;
+	}
+	else if(c==null || c==""){
+		alert("moi ban nhap dau du thong tin");
+		return false;
+	}
+	else if(a==b || a==c){
+		alert("tai khoan phai khac mat khau");
+		return false;
+	}
+	else if(b==null||b==""){
+		alert("moi ban nhap mat khau");
+		return false;
+	}
+	else if(c==null||c==""){
+		alert("moi ban nhap lai mat khau");
+		return false;
+	}
+	else if(b.length<6){
+		alert("mật khẩu phải chứa ít nhất 6 kí tự")
+		return false;
+		}
+			else if(b!=c){
+		alert("mat khau nhap lai khong giong nhau")
+		return false;
+	}
+	else if(b==c){
+		alert("ban da dang ki thanh cong")
+		return true;
+	}
+
+	else{
+		alert("ban da dang ky that bai ");
+		return false;
+	}
+}
+</script>
+</body>
+</html>

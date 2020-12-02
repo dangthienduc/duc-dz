@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	height: 160px;
+}
+#nen_menu_up{
+	width: 100%;
+	height: 80px;
+	background: black
+}
+#menu-up{
+	width: 1410px;
+	height: 300px;
+	background: black;
+	margin: auto;
+}
+#menu-up a{
+	color: yellow; 
+}
+#nen_menu_down{
+	width: 100%;
+	height: 80px;
+	background: #fed700;
+	padding-left: 105px;
+}
+#menu-down{
+	width: 1410px;
+	height: 80px;
+	background: #FED101;
+	margin: auto;
+}
+.logo{
+	height: 80px;
+	width: auto;
+	vertical-align: middle;
+	float: left;
+}
+#search{
+	width: 245px;
+	height: 70px;
+	float: left;
+	margin-top: 5px;
+	border-radius: 5px;
+	background: white;
+}
+.toinput{
+	height: 100%;
+	width: 65%;
+	border: none;
+	float: left;
+	border-radius: 5px;
+	padding-left: 5%;
+}
+.button{
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-radius: 5px;
+	border: none;
+}
+.giohang{
+	width: 106px;
+	height: 70px;
+	border: 1px solid white;
+	border-radius: 5px;
+	float: left;
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	margin-top: 5px;
+}
+.imggiohang{
+	margin-top: 18%;
+	float: left;
+	padding-left: 5px;
+}
+.giohang p{
+	float: left;
+	margin-top: 25%;
+	padding-left: 3px;
+}
+.chu{
+	float: left;
+	margin:0px 10px;
+	line-height: 4.8;
+	color: white;
+	text-decoration: none;
+}
+.text{
+	width: 300px;
+	height: 80px;
+	float: left;
+	border-left: 1px solid #232323;
+	color: #FFE66B;
+	text-decoration: none;
+	line-height: 1.5;
+	font-size: 20px;
+	font-weight: bold;
+}
+.text img{
+	height: 20px;
+	width: auto;
+	margin: 32px 10px;
+	float: left;
+	display: inline;
+}
+.text p{
+	margin-top: 10px;
+}
+#congnghe{
+	border-left: 1px solid #232323;
+	padding-left:15px;
+}
+.menu-down{
+	color: black;
+	padding-left: 12px;
+	display: inline-block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-right: 12px;
+	text-decoration: none;
+	font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+}
+.menu-down img{
+	vertical-align: middle;
+}
+#menu-down b{
+	color: green;
+}
+#menu-down a:hover{
+	background: white;
+}
+#textmenu{
+	padding-top: 30px;
+	padding-bottom: 32px;
+}
+
+/* hết phần menu*/
+#thantrang{
+	width: 100%;
+	
+	background: #f0f0f0;
+}
+#body{
+	width: 1410px;
+	height: 400px;
+	
+	margin:0 auto;
+}
+/* hiệu ứng chuyển động của banner */
+#tintuc_main{
+	padding-top: 5px;
+	width: 1410px;
+	height: 377px;
+	
+}
+
+#slider{
+	height: 377px;
+	width: 1000px;
+	overflow: hidden;
+	float: left;
+}
+#con{
+	width: 9000px;
+	animation-name: slide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite; 
+	animation-direction: alternate;
+	animation-delay: 0.1s;
+}
+.anh{
+	float: right;
+}
+@keyframes slide{
+	0%{margin-left: 0px;}
+	14%{margin-left: -100%;}
+	28%{margin-left: -200%;}
+	42%{margin-left: -300%;}
+	56%{margin-left: -400%;}
+	70%{margin-left: -500%;}
+	84%{margin-left: -600%;}
+	100%{margin-left: -700%;}
+}
+/* Tin công nghệ Sony, Samsung, Apple*/
+#home_new{
+	float: right;
+	width: 400px;
+	height: 376px;
+	top: 0px;
+	
+}
+#tincongnghe{
+	width: 400px;
+	height: 50px;
+	background: white;
+}
+.tcn{
+	display: block;
+	width: 240px;
+	height: 50px;
+	background-color: #fdd504;
+	text-align: center;
+}
+.tcn a{
+	float: left;
+	color: black;
+	text-decoration: none;
+	padding:11px 40px 11px;
+	font: 18px/30px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+}
+
+/* Tin tức điện thoại*/
+#tindienthoai{
+	display: block;
+	height: 80px;
+	width: 400px;
+	background: white;
+	margin-top: 2px;
+}
+#tindienthoai img{
+	height: 70px;
+	display: inline-block;
+	float: left;
+}
+#tindienthoai a{
+	text-decoration: none;
+	color: black;
+	font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+}
+#tindienthoai a:hover{
+	color: 	#00bfff;
+}
+#noidungtindienthoai{
+	width: 400px;
+	height: 70px;
+	margin-top: 5px;
+	margin-left: 5px;
+	position: absolute;
+}
+#noidungtindienthoai p{
+	padding-left: 137px;
+}
+#tinsamsung img{
+	padding-top: 8px;
+}
+
+
+/*cac loai dien thoai*/
+.khuyenmaihotnhat{
+	display: inline-block;
+	width: 100%;
+	height: 430px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.text_khuyenmaihotnhat{
+	width: 100%;
+	height: 50px;
+	background: white;
+	padding-left: 10px;
+	font: 20px/47px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+}
+.dienthoai_khuyenmaihotnhat{
+	width: 100%;
+	height: 379px;
+	margin-top: 1px;
+	background: white;
+  	overflow: hidden;
+}
+.slider_khuyenmaihot{
+	width: 5000px;
+	height: 379px;
+	animation-name: slide_;
+	animation-duration: 10s;
+	animation-iteration-count: infinite; 
+	animation-direction: alternate;
+	animation-delay: 0.1s;
+	color: blue;
+}
+@keyframes slide_{
+	0%{margin-left: 0px;}
+	17%{margin-left: -233px;}
+	34%{margin-left: -467px;}
+	51%{margin-left: -705px;}
+	78%{margin-left: -940px;}
+	90%{margin-left: -1175px;}
+	100%{margin-left: -1420px;}
+
+}
+/* định dạng từng điện thoại*/
+.product-item{
+	float: left;
+	width: 233px;
+	height: 375px;
+	
+}
+.tragop{
+	width: 100%;
+	margin-top: 10px;
+}
+.tragop h5{
+	width: 30%;
+	height: 100%;
+	background: #FED101;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+.product-img img{
+	float: right;
+	width: 200px;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	
+}
+.product-img:hover{
+	margin-top: -10px;
+}
+.product-item p{
+	line-height: 1;
+	text-indent: 10px;
+}
+.product-price{
+	color: red;
+}
+.buy{
+	padding-top: 15px;
+	padding-left: 50%;
+}
+.buy a{
+	background-color: #f0f0f0;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+	text-align:  center;
+	color: red;
+}
+#footer .cumay{
+	color: black;
+}
+#footer label{
+	font-size: 15px;
+}
